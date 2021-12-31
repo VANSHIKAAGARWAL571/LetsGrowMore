@@ -1,0 +1,63 @@
+.boximg{
+  width: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 5px;
+  border-radius: 50%;
+}
+
+.main{
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  
+}
+
+.box{
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  border: 1px whitesmoke;
+  padding: 18px;
+  margin-bottom: 20px;
+  
+}
+.box:hover{
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.name{
+  text-align: center;
+  color:black;
+  padding: 5px;
+  margin-top: 10px;
+}
+.mail{
+  text-align: center;
+  color: black;
+}
+
+.detail{
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: palevioletred;
+  color: black;
+  border: black 1px solid;
+  
+}
+.detail:hover{
+  background-color:#B266FF;
+}
+.info{
+  display: grid;
+  grid-template-rows: auto auto auto ;
+  justify-content: center;
+}

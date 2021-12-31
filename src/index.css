@@ -1,0 +1,10 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Gluten:wght@500&display=swap');
+body{
+  background-color:#9999ff;
+
+}
